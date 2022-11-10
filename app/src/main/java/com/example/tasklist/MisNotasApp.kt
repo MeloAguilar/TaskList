@@ -11,7 +11,7 @@ class MisNotasApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        MisNotasApp.database =
+        database =
             Room.databaseBuilder(
                 this,
                 TaskDataBase::class.java,
